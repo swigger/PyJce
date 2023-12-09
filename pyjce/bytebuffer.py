@@ -57,7 +57,7 @@ class ByteBuffer(object):
         return struct.unpack('>i', b)[0]
     
     def get_int8(self):
-        b = self.get_bytes(4)
+        b = self.get_bytes(8)
         return struct.unpack('>q', b)[0]
 
     def get_float(self):

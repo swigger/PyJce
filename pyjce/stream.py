@@ -178,7 +178,7 @@ class JceInputStream(object):
                 n = 0.0
             elif head_data.type == 4:
                 n = self._bs.get_float()
-            if head_data.type == 5:
+            elif head_data.type == 5:
                 n = self._bs.get_double()
             else:
                 raise JceDecodeException("type mismatch.")

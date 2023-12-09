@@ -134,3 +134,7 @@ dmypy.json
 # Custom
 Jce/
 jce_github/
+
+.DS_Store
+*.txt
+*.bin
